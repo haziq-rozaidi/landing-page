@@ -28,13 +28,13 @@
     text-decoration: none;
 }
 
-.nav__logo {
+.nav__logo, .cta__text-main {
     font-size: 24px;
     font-weight: 700;
     color: #F9FAF8;
 }
 
-.nav__link, .hero__secondary-text {
+.nav__link, .hero__secondary-text, .cta__text-secondary {
     font-size: 18px;
     font-weight: 300;
     color: #E5E7EB;
@@ -115,6 +115,7 @@
 .figure__image {
     width: 160px;
     height: 160px;
+    margin: 0 0 8px 0;
     border-width: 4px;
     border-radius: 16px;
     border-style: solid;
@@ -124,6 +125,7 @@
 .figure__caption {
     font-size: 18px;
     color: #4A5464;
+    text-align: center;
 }
 
 .quote {
@@ -151,4 +153,48 @@
     font-weight: 700;
     text-align: right;
     color: #1E2838;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.cta__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.cta__text {
+    margin-left: 120px;
+}
+
+.cta__text-main, .cta__text-secondary {
+    margin: 0;
+}
+
+.cta__text-main {
+    margin-bottom: 2px;
+}
+
+.cta__link {
+    width: 126px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    color: #FFF;
 }
