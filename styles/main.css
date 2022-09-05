@@ -198,3 +198,14 @@
     font-weight: 500;
     color: #FFF;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E3E4E6;
+}
