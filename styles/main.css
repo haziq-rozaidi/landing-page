@@ -5,27 +5,29 @@
 }
 
 .page__menu {
-    padding: 0 208px;
     background-color: #1F2937;
+}
+
+.menu__nav {
+    margin: 0 208px;
 }
 
 .nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     height: 64px;
-    margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.nav__logo, .nav__link {
+    text-decoration: none;
 }
 
 .nav__content {
     display: flex;
     gap: 24px;
-}
-
-.nav__logo, .nav__link {
-    text-decoration: none;
 }
 
 .nav__logo, .cta__text-main {
