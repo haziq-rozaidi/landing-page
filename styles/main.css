@@ -92,43 +92,39 @@
     object-fit: cover;
 }
 
-.info {
-    height: 498px;
-}
-
-.info__title {
-    margin: 0;
-    padding: 46px 0 52px;
+.info__header {
+    margin: 48px 0;
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-.figure {
+.info__content {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin: 0 0 120px;
 }
 
-.figure__card {
+.card {
     margin: 0;
     width: 168px;
 }
 
-.figure__image {
+.card__image {
     width: 160px;
     height: 160px;
     margin: 0 0 8px 0;
     border-width: 4px;
-    border-radius: 16px;
+    border-radius: 15px;
     border-style: solid;
     border-color: #3882F6;
 }
 
-.figure__caption {
+.card__caption {
     font-size: 18px;
-    color: #4A5464;
+    color: #4a5464;
     text-align: center;
 }
 
