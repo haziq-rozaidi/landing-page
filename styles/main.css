@@ -128,27 +128,27 @@
     text-align: center;
 }
 
-.quote {
+.quotes {
     display: flex;
-    height: 430px;
     align-items: center;
-    padding: 0 340px;
+    height: 430px;
     background-color: #E5E7EB;
 }
 
-.quote__section, .quote__main, .quote__text {
-    margin: 0;
+.quotes__quote {
+    margin: 0 342px;
 }
 
-.quote__text {
+.quotes__text {
+    margin: 0;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
 
-.quote__caption {
-    margin-right: 28px;
+.quotes__caption {
+    margin: 0 28px 0 0;
     font-size: 24px;
     font-weight: 700;
     text-align: right;
