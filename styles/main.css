@@ -34,12 +34,14 @@
     font-size: 24px;
     font-weight: 700;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .nav__link, .hero__text-secondary, .cta__text-secondary {
     font-size: 18px;
     font-weight: 300;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .page__header {
@@ -176,27 +178,18 @@
     margin-left: 120px;
 }
 
-.cta__text-main, .cta__text-secondary {
-    margin: 0;
-}
-
 .cta__text-main {
     margin-bottom: 2px;
 }
 
-.cta__link {
-    width: 126px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cta__button-cta {
     margin-right: 120px;
-    border-radius: 8px;
+}
+
+.button-cta_border_white {
     border-style: solid;
     border-color: #FFF;
-    text-decoration: none;
-    font-weight: 500;
-    color: #FFF;
+    border-width: 2px;
 }
 
 .footer {
